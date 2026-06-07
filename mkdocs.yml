@@ -1,0 +1,17 @@
+site_name: 准大学生自学指南
+site_description: 从高考完到大学开学前，你可以做些什么
+site_author: Alex
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - 前言: index.md
