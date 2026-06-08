@@ -1,17 +1,37 @@
-site_name: 准大学生自学指南
-site_description: 从高考完到大学开学前，你可以做些什么
-site_author: Alex
+site_name: 准大学生入学指南
 
 theme:
   name: material
   language: zh
   features:
+    - navigation.tracking
     - navigation.top
-    - navigation.sections
-    - navigation.expand
+    - toc.follow
     - search.highlight
     - search.suggest
-    - content.code.copy
 
 nav:
   - 前言: index.md
+
+  - 高考结束至出分前:
+      - 专业认知: major.md
+
+  - 出分后至录取结果确定前:
+      - 志愿填报: application.md
+
+  - 录取结果确定后至大学开学前:
+      - 电脑和软件准备: computer.md
+      - 英语学习: english.md
+      - 编程入门: programming.md
+      - 大学生活准备: college-life.md
+      - 开学防坑指南: safety.md
+      - 写给计算机专业新生: cs-newcomer.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - admonition
+
+extra_css:
+  - stylesheets/extra.css
