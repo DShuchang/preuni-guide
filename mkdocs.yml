@@ -20,11 +20,13 @@ nav:
       - 志愿填报: application.md
 
   - 录取结果确定后至大学开学前:
-      - 电脑和软件准备: computer.md
+      - 推荐你看的一些资料: resource.md
+      - 电脑: computer.md
       - 英语学习: english.md
       - 编程入门: programming.md
       - 大学生活准备: college-life.md
       - 开学防坑指南: safety.md
+      - 写个想要转专业的同学: Change-of-Major.md
       - 写给计算机专业新生: cs-newcomer.md
 
 markdown_extensions:
